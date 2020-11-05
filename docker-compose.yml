@@ -1,0 +1,24 @@
+version: '2.1'
+
+services:
+  pvapi:
+    image: wallatsebastian/pv-api:buildx-latest
+    container_name: PV-API
+    restart: unless-stopped
+    ports:
+      - 8080:8080
+    environment:
+      - NODE_ENV
+      - ENERGY_MANAGER_API
+
+  telegraf:
+    image: wallatsebastian/telegraf-pv:buildx-latest
+    container_name: PV-telegraf
+    restart: unless-stopped
+    environment: 
+      - API_URL
+      - DB_URL
+      - DB_NAME
+      - DB_PASSWORD
+      - DB_USER
+      - DB_RP_NAME
