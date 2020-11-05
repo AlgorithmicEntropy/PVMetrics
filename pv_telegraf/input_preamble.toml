@@ -1,0 +1,5 @@
+[[inputs.http]]
+    urls = ["${API_URL}"]
+    method = "GET"
+    data_format = "json"
+    name_override = "energyManager"

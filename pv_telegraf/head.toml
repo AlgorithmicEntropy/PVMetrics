@@ -1,0 +1,12 @@
+[agent]
+interval = "60s"
+round_interval = true
+omit_hostname = true
+
+[[outputs.influxdb]]
+    urls = ["${DB_URL}"]
+    database = "${DB_NAME}"
+    skip_database_creation = true
+    retention_policy = "${DB_RP_NAME}"
+    password = "${DB_PASSWORD}"
+    username = "${DB_USER}"

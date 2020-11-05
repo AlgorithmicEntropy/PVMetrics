@@ -1,0 +1,17 @@
+result.items.4.tagValues.WorkProduced
+result.items.4.tagValues.PowerProduced
+result.items.4.tagValues.WorkConsumedFromGrid
+result.items.4.tagValues.PowerConsumed
+result.items.4.tagValues.PowerConsumedFromGrid
+result.items.4.tagValues.PowerConsumedFromStorage
+result.items.4.tagValues.PowerConsumedFromProducers
+result.items.4.tagValues.PowerOut
+result.items.4.tagValues.WorkOut
+result.items.4.tagValues.PowerOutFromStorage
+result.items.4.tagValues.PowerBuffered
+result.items.1.tagValues.StateOfCharge
+result.items.4.tagValues.PowerSelfSupplied
+result.items.4.tagValues.PowerSelfConsumed
+result.items.4.tagValues.PowerReleased
+result.items.4.tagValues.PowerBufferedFromGrid
+result.items.4.tagValues.PowerBufferedFromProducers
